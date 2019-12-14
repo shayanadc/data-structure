@@ -10,7 +10,7 @@ class TestBinarySearch(TestCase):
         ({'arr': [1,2,3,4,5,6,7,8,9,10], 'n': 10}, {'result' : 3}),
     )
     @data_provider(conditions)
-    def test_array_with_k_rotation(self,input,output):
+    def test_find_With_Binary_Search(self,input,output):
         array = input['arr']
         n = input['n']
         result = output['result']
@@ -21,7 +21,7 @@ class BinarySearch(object):
     def __init__(self):
         pass
 
-    def findWithBinarySeach(self, array, n):
+    def findWithBinarySearch(self, array, n):
         first = 0
         last = len(array) - 1
         compare = 0
