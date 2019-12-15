@@ -11,3 +11,7 @@ An element in a sorted array can be found in O(log n) time via binary search
 ## pair_with_a_given_sum
 Find if the array has a pair with a given sum ‘x’.
 for arrays with distinc array Time Complexity is O(n)
+
+## samllest_missing_parameter
+Given a sorted array of n distinct integers where each integer is in the range from 0 to m-1 and m > n. Find the smallest number that is missing from the array.
+for sum cases it works with Time Complexity of O(Logn)
