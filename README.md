@@ -19,3 +19,7 @@ for sum cases it works with Time Complexity of O(Logn)
 ## largest_sum_contiguous_subarray
 Write an efficient program to find the sum of contiguous subarray within a one-dimensional array of numbers which has the largest sum.
 Time Complexity: O(n)
+
+## find_equilibrium_index_of_an_array
+Equilibrium index of an array is an index such that the sum of elements at lower indexes is equal to the sum of elements at higher indexes.
+Time Complexity: O(n)
