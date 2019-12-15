@@ -5,6 +5,7 @@ class testLargestSumContiguousSubarray(TestCase):
 
     conditions = lambda: (
         ({'arr': [-7, 1, 5, 2, -4, 3, 0]}, {'result' : 3}),
+        ({'arr': [1,3,4,5,7]}, {'result' : -1}),
     )
     @data_provider(conditions)
     def test_find_equilibrium_index_of_an_array(self,input,output):
