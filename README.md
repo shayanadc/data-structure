@@ -16,6 +16,6 @@ for arrays with distinc array Time Complexity is O(n)
 Given a sorted array of n distinct integers where each integer is in the range from 0 to m-1 and m > n. Find the smallest number that is missing from the array.
 for sum cases it works with Time Complexity of O(Logn)
 
-## larges sum contiguous subarray
+## largest_sum_contiguous_subarray
 Write an efficient program to find the sum of contiguous subarray within a one-dimensional array of numbers which has the largest sum.
 Time Complexity: O(n)
