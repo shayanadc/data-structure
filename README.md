@@ -30,3 +30,8 @@ Time Complexity: read -> O(n)
 
 ## insert_in_linked_list
 Add a node at the front with Time Complexity: insert -> O(1)
+
+
+## delete_from_linked_list
+To delete a node from linked list, we need to do following steps: Find previous node of the node to be deleted, Change the next of previous node Free memory for the node to be deleted.
+Time Complexity: deletion -> O(n)
