@@ -35,3 +35,7 @@ Add a node at the front with Time Complexity: insert -> O(1)
 ## delete_from_linked_list
 To delete a node from linked list, we need to do following steps: Find previous node of the node to be deleted, Change the next of previous node Free memory for the node to be deleted.
 Time Complexity: deletion -> O(n)
+
+## balanced_brackets
+Given  strings of brackets, determine whether each sequence of brackets is balanced. If a string is balanced, print YES on a new line; otherwise, print NO on a new line.
+Time Complexity: O(n)
