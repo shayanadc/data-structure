@@ -23,3 +23,7 @@ Time Complexity: O(n)
 ## find_equilibrium_index_of_an_array
 Equilibrium index of an array is an index such that the sum of elements at lower indexes is equal to the sum of elements at higher indexes.
 Time Complexity: O(n)
+
+## linked_list_traverse
+Like arrays, Linked List is a linear data structure. Unlike arrays, linked list elements are not stored at a contiguous location; the elements are linked using pointers.
+Time Complexity: read -> O(n) delete -> O(n) insert -> O(1)
