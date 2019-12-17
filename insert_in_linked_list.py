@@ -2,7 +2,7 @@ from unittest import TestCase
 
 class testLinkedList(TestCase):
 
-    def test_traverse_linked_list(self):
+    def test_insert_linked_list(self):
         llist = LinkedList()
 
         llist.head = Node(1)
