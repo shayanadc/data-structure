@@ -26,4 +26,7 @@ Time Complexity: O(n)
 
 ## linked_list_traverse
 Like arrays, Linked List is a linear data structure. Unlike arrays, linked list elements are not stored at a contiguous location; the elements are linked using pointers.
-Time Complexity: read -> O(n) delete -> O(n) insert -> O(1)
+Time Complexity: read -> O(n)
+
+## insert_in_linked_list
+Add a node at the front with Time Complexity: insert -> O(1)
