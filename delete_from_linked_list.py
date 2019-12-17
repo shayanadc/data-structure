@@ -51,7 +51,7 @@ class LinkedList:
     def deleteNode(self, key):
 
         currentNode = self.head
-
+        prev = None
         while (currentNode is not None):
             if currentNode.data == key:
                 break
@@ -60,5 +60,7 @@ class LinkedList:
 
         if (currentNode == None):
             return
-
-        prev.next = currentNode.next
+        if(prev):
+            prev.next = currentNode.next
+        else:
+            self.head = currentNode.next
