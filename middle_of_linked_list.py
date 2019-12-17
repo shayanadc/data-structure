@@ -2,7 +2,7 @@ from unittest import TestCase
 
 class testLinkedList(TestCase):
 
-    def test_deletion_linked_list(self):
+    def test_find_the_middle_of_linked_list(self):
         llist = LinkedList()
 
         llist.head = Node(1)
