@@ -39,3 +39,7 @@ Time Complexity: deletion -> O(n)
 ## balanced_brackets
 Given  strings of brackets, determine whether each sequence of brackets is balanced. If a string is balanced, print YES on a new line; otherwise, print NO on a new line.
 Time Complexity: O(n)
+
+## maximum_repeated_element
+Given an array with repeated elements, the task is to find the maximum distance two occurrences of an element.
+Time complexity : O(n)
