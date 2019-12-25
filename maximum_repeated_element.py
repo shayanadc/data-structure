@@ -1,7 +1,7 @@
 from unittest import TestCase
 from unittest_data_provider import data_provider
 
-class testLargestSumContiguousSubarray(TestCase):
+class testMaxDistBetweenTwoElement(TestCase):
 
     conditions = lambda: (
         ({'arr': [3, 2, 1, 2, 1, 4, 5, 8, 6, 7, 4, 2]}, {'result' : 10}),
