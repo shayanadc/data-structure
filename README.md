@@ -43,3 +43,8 @@ Time Complexity: O(n)
 ## maximum_repeated_element
 Given an array with repeated elements, the task is to find the maximum distance two occurrences of an element.
 Time complexity : O(n)
+
+## find_itinerary
+Given a list of tickets, find itinerary in order using the given list.
+Time complexity : O(n)
+
