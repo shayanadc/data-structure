@@ -21,8 +21,7 @@ class MissingNumberInRange(object):
 
     def findMissingNumberInRange(self, arr):
         n = len(arr)
-        n = n+1
-        Sum = n*(n+1)
-        Sum = Sum/2
+        n +=1
+        Sum = (n*(n+1))/2
         miss = Sum - sum(arr)
         return miss
