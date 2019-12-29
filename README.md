@@ -52,3 +52,6 @@ Time complexity : O(n)
 exchange one item from array so that after the exchange, they both have the same total amount of candy.
 Time complexity : O(n)
 
+## find_missing_number_in_range
+How do you find the missing number in a given integer array of 1 to 100?
+Time complexity : O(n)
