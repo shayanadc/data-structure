@@ -48,3 +48,7 @@ Time complexity : O(n)
 Given a list of tickets, find itinerary in order using the given list.
 Time complexity : O(n)
 
+## swap_candy
+exchange one item from array so that after the exchange, they both have the same total amount of candy.
+Time complexity : O(n)
+
